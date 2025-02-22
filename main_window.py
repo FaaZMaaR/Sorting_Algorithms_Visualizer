@@ -107,4 +107,4 @@ class MainWindow(QtWidgets.QMainWindow):
         self.sort.terminate()
     
     def on_about(self):
-        QtWidgets.QMessageBox.about(self,"О программе","<center>\"Алгоритмы сортировки\" v1.0.0<br><br>Программа визуализации аргоритмов сортировки<br><br>(c) FaaZMaaR, 2025")
+        QtWidgets.QMessageBox.about(self,"О программе","<center>\"Алгоритмы сортировки\" v1.0.1<br><br>Программа визуализации аргоритмов сортировки<br><br>(c) FaaZMaaR, 2025")

@@ -59,8 +59,6 @@ class SortAlgo(QtCore.QThread):
                     self.msleep(self.speed)
             ind+=1
             self.graphArray.selected1+=1
-            self.graphArray.update()
-            self.msleep(self.speed)
             
     def bubbleSort(self):        
         for i in range(len(self.graphArray.array)-1):
